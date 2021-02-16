@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.page-container {
+  background: url(/images/bg-intro-desktop.png) no-repeat;
+  background-size: cover;
+  background-color: #FF7978;
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-card {
+  color: white;
+  width: 600px;
+  margin: 0 30px;
+}
+
+.left-card h1 {
+  margin: 10px 0;
+}
+
+.left-card p {
+  margin: 20px 0;
+}
+
+.right-card {
+  margin: 0 30px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form {
+  width: 100%;
+  background-color: white;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn-top {
+  width: 400px;
+  margin: 20px 0;
+  height: 40px;
+  color: white;
+  background-color: #5D54A3;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: 300;
+}
+
+.btn-top span {
+  font-weight: 700;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+label {
+  position: relative;
+  background-color: red;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.placeholder {
+  position: absolute;
+  left: 0;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
